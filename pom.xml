@@ -5,6 +5,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   
+  
+  <properties>
+  	<activiti.version>5.22.0</activiti.version>
+  </properties>
+  
   <dependencyManagement>
   	
   	<dependencies>
@@ -12,7 +17,7 @@
   		<dependency>
 		    <groupId>org.activiti</groupId>
 		    <artifactId>activiti-engine</artifactId>
-		    <version>5.22.0</version>
+		    <version>${5.22.0}</version>
 		</dependency>
   	
   	</dependencies>

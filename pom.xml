@@ -4,4 +4,18 @@
   <artifactId>activity-example-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  
+  <dependencyManagement>
+  	
+  	<dependencies>
+  		<!-- activity jar 依赖 -->
+  		<dependency>
+		    <groupId>org.activiti</groupId>
+		    <artifactId>activiti-engine</artifactId>
+		    <version>5.22.0</version>
+		</dependency>
+  	
+  	</dependencies>
+  	
+  </dependencyManagement>
 </project>
